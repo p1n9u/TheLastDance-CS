@@ -105,7 +105,7 @@ ANSI C 토큰 종류
 1. 키워드(keywords)
     1. List
         
-        ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled.png)
+        ![Untitled](img/Untitled.png)
         
     2. cpp → Reference Check
 2. 식별자(identifiers)
@@ -151,7 +151,7 @@ int main(void)
 
 ## The Fundamental Data Types
 
-![[https://en.cppreference.com/w/cpp/language/types](https://en.cppreference.com/w/cpp/language/types)](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%201.png)
+![[https://en.cppreference.com/w/cpp/language/types](https://en.cppreference.com/w/cpp/language/types)](img/Untitled%201.png)
 
 [https://en.cppreference.com/w/cpp/language/types](https://en.cppreference.com/w/cpp/language/types)
 
@@ -213,7 +213,7 @@ int main(void)
 
 ## Relational Operators and Expressions
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%202.png)
+![Untitled](img/Untitled%202.png)
 
 1. 3 < j < 5
     1. (3 < 2) < 5 ↔ 0 < 5 (true)
@@ -465,7 +465,7 @@ count_digit("12345");
 
 ## Developing a Large Program
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%203.png)
+![Untitled](img/Untitled%203.png)
 
 1. makefile
 2. gcc -o  pgm main.c fct. prn.c
@@ -511,7 +511,7 @@ C언어에서 사용되는 변수는 두 가지 속성을 가진다.
         4. 다른 파일에서 선언된 함수가 키워드 기억영역 클래스 extern을 사용하여 그 변수를 사용하고자 해도 사용할 수 없음
         5. example
             
-            ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%204.png)
+            ![Untitled](img/Untitled%204.png)
             
 
 ## The Type Qualifier const and volatile
@@ -636,9 +636,9 @@ int main(void)
 - p = &I ; /* i의 주소를 갖는 포인터 변수 */
 - p = (int *) 1776; /* an absolute address in memory */
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%205.png)
+![Untitled](img/Untitled%205.png)
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%206.png)
+![Untitled](img/Untitled%206.png)
 
 - 지정할 수 없는 구조
     - 상수
@@ -676,7 +676,7 @@ int main(void)
 - 변수 p를 특정형에 대한 포인터라고 하면, 수식 p + 1은 그 형의 다음 변수를 나타냄
 - p와 q가 모두 한 배열의 원소들을 포인트하고 있다면, p - q는 p와 q 사이에 있는 배열 원소의 개수를 나타내는 int 값을 생성함
     
-    ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%207.png)
+    ![Untitled](img/Untitled%207.png)
     
 
 ## Arrays as Function Arguments
@@ -686,7 +686,7 @@ int main(void)
 - 배열 원소 자체는 복사되지 않음
 - 표기 상의 편리성 때문에 포인터를 매개변수로 선언할 때 배열의 각 괄호 표기법을 사용할 수 있음
     
-    ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%208.png)
+    ![Untitled](img/Untitled%208.png)
     
 
 ## Dynamic Memory Allocations With calloc() and malloc()
@@ -775,7 +775,7 @@ int main(void)
     - char s[]= "abcde";
         - // char s= {'a', 'b', 'c', 'd', 'e', '\0'};
         
-        ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%209.png)
+        ![Untitled](img/Untitled%209.png)
         
 
 ## String-Handling Functions in the Standard Library
@@ -834,12 +834,12 @@ int main(void)
 
 ## Ragged Arrays
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2010.png)
+![Untitled](img/Untitled%2010.png)
 
 - 래기드 배열 : 배열의 원소인 포인터가 다양한 크기의 배열을 포인트하는 것
 - 앞의 프로그램에서 p의 행들은 다른 길이를 갖기 때문에, p를 래기드 배열이라고 할 수 있음
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2011.png)
+![Untitled](img/Untitled%2011.png)
 
 - 출력
     - abc abc: a is for apple
@@ -868,11 +868,11 @@ int main(void)
 
 - 함수의 포인터는 인자로서 전달될 수 있고, 배열에서도 사용되며, 함수로부터 리턴될 수도 있음
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2012.png)
+![Untitled](img/Untitled%2012.png)
 
 - 앞의 코드에서 식별자 x는 사람을 위한 것으로, 컴파일러는 무시함 즉, 다음과 같이 해도 됨
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2013.png)
+![Untitled](img/Untitled%2013.png)
 
 - 포인터 f를 함수처럼 취급할 수도 있고, 또는 포인터 f를 명시적으로 역참조할 수도 있음
     - 즉, 다음 두 문장은 같음
@@ -1002,7 +1002,7 @@ inline int square(int n)
 
 - int/long/pointer
     
-    ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2014.png)
+    ![Untitled](img/Untitled%2014.png)
     
 - unsigned
 
@@ -1035,7 +1035,7 @@ uint32_t num3 = 0b1010;
 
 - Floating Point
     
-    ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2015.png)
+    ![Untitled](img/Untitled%2015.png)
     
     - float : 부호1 지수8 가수23
     - double : 부호1 지수11 가수52
@@ -1046,7 +1046,7 @@ uint32_t num3 = 0b1010;
 - 시스템 종속적
 - 여기서는 8 비트 바이트, 4 바이트 워드, 2의 보수로 표현되는 정수, 그리고 ASCII 문자 코드를 갖는 컴퓨터를 가정함
     
-    ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2016.png)
+    ![Untitled](img/Untitled%2016.png)
     
 - 왼쪽과 오른쪽 이동 연산자
     - 이동 연산자의 두 피연산자는 정수적 수식이어야 함
@@ -1059,7 +1059,7 @@ uint32_t num3 = 0b1010;
         - 수식에서 c는 int 형으로 승격됨
         - 따라서 결과는 4 바이트에 저장됨
             
-            ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2017.png)
+            ![Untitled](img/Untitled%2017.png)
             
     - 오른쪽 이동 연산자
         - expr1 >> expr2
@@ -1067,7 +1067,7 @@ uint32_t num3 = 0b1010;
         - 부호가 없는 정수적 수식에서는 상위 비트로 0이 들어옴
         - 부호가 있는 형일 때에는 시스템에 따라 상위 비트로 0이 들어오는 것도 있고, 1이 들어오는 것도 있음
             
-            ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2018.png)
+            ![Untitled](img/Untitled%2018.png)
             
 
 ## Masks & Packing and Unpacking
@@ -1076,12 +1076,12 @@ uint32_t num3 = 0b1010;
 - 패킹
     - 4개의 문자를 하나의 int형에 패킹하는 함수
         
-        ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2019.png)
+        ![Untitled](img/Untitled%2019.png)
         
 - 언패킹
     - 32비트 int안에 있는 문자를 검색하는 함수
         
-        ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2020.png)
+        ![Untitled](img/Untitled%2020.png)
         
 
 ## Enumeration Types
@@ -1228,7 +1228,7 @@ debugging code
 - ANSI C에는 미리 정의된 다섯 개의 매크로가 있고, 이 매크로는 항상 사용할 수 있으며, 프로그래머가 정의를 해제할 수 없음
 - 각 매크로 이름은 두개의 밑줄문자로 시작해서 두개의 밑줄문자로 끝남
 
-![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2021.png)
+![Untitled](img/Untitled%2021.png)
 
 ## The Operators # and ##
 
@@ -1314,13 +1314,13 @@ int a : 1, b : 16, c : 16;
 
 - 패딩과 정렬을 위해 이름 없는 비트 필드나 폭이 0인 비트 필드를 사용할 수 있음
     
-    ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2022.png)
+    ![Untitled](img/Untitled%2022.png)
     
 - 비트와 바이트를 접근하기 위해 다음과 같이 선언할 수 있음
     
-    ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2023.png)
+    ![Untitled](img/Untitled%2023.png)
     
-    ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2024.png)
+    ![Untitled](img/Untitled%2024.png)
     
 
 ## Self-referential Structures
@@ -1349,7 +1349,7 @@ int a : 1, b : 16, c : 16;
         - 9, 6, +
         - 15
             
-            ![Untitled](CwithCPP%209f30ad733c7847f5a8f43107db8ae5ef/Untitled%2025.png)
+            ![Untitled](img/Untitled%2025.png)
             
 
 ---
