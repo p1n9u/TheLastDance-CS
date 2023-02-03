@@ -34,5 +34,6 @@
     - 데이터베이스 디자인, SQL은 따로 다룰 예정
 - OS (작업중)
     - 현재 Process까지 
+    - Comment 및 Summary와 내용 병합 해야함
 ---        
 Updated : 2023.02.02
