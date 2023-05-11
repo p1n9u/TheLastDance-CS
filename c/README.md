@@ -24,4 +24,5 @@
 ## Contents
 [Starting from Zero](./note/SP00_Starting_from_Zero.md) <br>
 [An Overview of C](./note/SP01_An_Overview_of_C.md) <br>
+[Lexical Elements, Operators, and the C System](./note/SP02_Lexical_Elements_Operators_and_the_C_System.md) <br>
 
