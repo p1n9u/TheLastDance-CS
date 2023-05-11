@@ -9,7 +9,9 @@
 - 다음은 IT분야 기술면접 대비 유용한 정보들 입니다.
     - https://career.programmers.co.kr/posts/tag/기술면접대비
     - https://mangkyu.tistory.com/88
+
 ---
+
 ## 유의사항
 
 1. Notion 페이지를 기반으로 작성되었습니다.
@@ -25,15 +27,27 @@
         2. 가급적으로 모든 내용을 다루려 하나, 생략된 내용이 있을 수 있습니다.
     2. 잘못된 정보나 올바르지 못한 이해로 인해 발생하는 문제에 대해서는 책임을 지지 않습니다.
         1. 메일을 통해 제보해 주시면 수정합니다.
+
 ---
+
 ## 목차
 
-- CwithCPP
-    - 기존 C언어에 CPP비교 내용 기술
-- DB
-    - 데이터베이스 디자인, SQL은 따로 다룰 예정
-- OS (작업중)
-    - 현재 Process까지 
-    - Comment 및 Summary와 내용 병합 해야함
----        
+### Language
+
+---
+
+## Milestone
+
+[roadmap.sh/cs](https://roadmap.sh/computer-science)
+
+--- 
+
+## Reference
+
+1. https://linux-kernel-labs.github.io/refs/heads/master/index.html#
+2. https://www.kernel.org/doc/html/v4.10/doc-guide/kernel-doc.html
+3. https://www.w3schools.com/
+
+---
+
 Updated : 2023.02.02
