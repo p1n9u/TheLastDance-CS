@@ -27,8 +27,8 @@
 
 int main(void)
 {
-        printf("from sea to shining C\n");
-				return 0;
+	printf("from sea to shining C\n");
+	return 0;
 }
 ```
 
