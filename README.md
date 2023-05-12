@@ -1,4 +1,4 @@
-# TheLastDance_CS
+# TheLastDance CS
 
 - 본 저장소는 CS기술면접을 위한 개인 저장소입니다.
     - 저작권에 문제가 있을시 바로 수정 및 삭제
