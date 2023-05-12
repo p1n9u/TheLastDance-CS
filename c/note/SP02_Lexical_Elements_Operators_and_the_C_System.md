@@ -79,6 +79,7 @@ default     for         short       union
 - 문자열 상수
     - 한쌍의 큰 따옴표(” “)에 묶인 문자열
     - [ASCII 코드](https://en.wikipedia.org/wiki/ASCII)
+    - [ASCII 코드 cpp](https://en.cppreference.com/w/cpp/language/ascii)
     - “hello”, “very good”
 - 열거상수
     - enum에 의해 선언된 상수
