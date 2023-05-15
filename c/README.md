@@ -27,4 +27,5 @@
 [Lexical Elements, Operators, and the C System](./note/SP02_Lexical_Elements_Operators_and_the_C_System.md) <br>
 [The Fundamental Data Types](./note/SP03_The_Fundamental_Data_Types.md) <br>
 [Flow of Control](./note/SP04_Flow_of_Control.md) <br>
+[Functions](./note/SP05_Functions.md) <br>
 
