@@ -110,7 +110,7 @@ int f(double x)
 
 - 값에 의한 호출(call by value)
     - 인자는 지역적(local)으로 사용, 호출한 환경에 저장된 변수 값 변경 없음
-    - Call-by-Reference 참조
+    - [Call-by-Reference](../note/SP06_Arrays_Pointers_and_Strings.md#call-by-reference) 참조
 
 ## Developing a Large Program
 
