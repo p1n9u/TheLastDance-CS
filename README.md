@@ -33,6 +33,10 @@
 ## 목차
 
 ### Language
+[C](./c) <br>
+CPP <br>
+
+### Data Structure
 
 ---
 
@@ -50,4 +54,4 @@
 
 ---
 
-Updated : 2023.02.02
+Updated : 2023.05.18
