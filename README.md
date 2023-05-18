@@ -36,7 +36,7 @@
 [C](./c) <br>
 CPP <br>
 
-### [Data Structure](./data_structures)
+### [Data Structures](./data_structures)
 
 ---
 
