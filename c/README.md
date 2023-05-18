@@ -32,5 +32,5 @@
 [Bitwise Operators and Enumeration Types](./note/SP07_Bitwise_Operators_and_Enumeration_Types.md) <br>
 [The Preprocessor](./note/SP08_The_Preprocessor.md) <br>
 [Structures and Unions](./note/SP09_Structures_and_Unions.md) <br>
-Structures and List Processing -> Data Structure <br>
+Structures and List Processing -> [Data Structures](../data_structures) <br>
 Input/Output and the Operating System -> System Programming <br>
