@@ -75,10 +75,10 @@
  * 1. macros that affect control flow
  * 2. macros that depend on having a local variable with a magic name
  */
-#define macrofun(a, b, c)   \
-do {                        \
-	if (a == 5)             \
-		do_this(b, c);      \
+#define macrofun(a, b, c)   		\
+do {                        		\
+	if (a == 5)             	\
+		do_this(b, c);      	\
 } while (0)
 ```
 
@@ -237,9 +237,9 @@ __TIME__        /* 전처리된 변환 단위를 변환하는 시간 문자열 �
     ```c
     #include <stdio.h>
     
-    #define message_for(a, b)                       \
-    do {                                            \
-    	printf(#a " and " #b ": We love you!\n");   \
+    #define message_for(a, b)                       	\
+    do {                                            	\
+    	printf(#a " and " #b ": We love you!\n");   	\
     } while (0)
     
     int main(void)
