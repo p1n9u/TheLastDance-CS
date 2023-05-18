@@ -24,5 +24,5 @@
 ---
 
 ## Contents
-[NULL](./) <br>
+[Introduction](./note/DS00_Introduction.md) <br>
 
