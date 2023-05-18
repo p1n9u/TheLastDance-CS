@@ -31,4 +31,5 @@
 [Arrays, Pointers, and Strings](./note/SP06_Arrways_Pointers_and_Strings.md) <br>
 [Bitwise Operators and Enumeration Types](./note/SP07_Bitwise_Operators_and_Enumeration_Types.md) <br>
 [The Preprocessor](./note/SP08_The_Preprocessor.md) <br>
+[Structures and Unions](./note/SP09_Structures_and_Unions.md) <br>
 
