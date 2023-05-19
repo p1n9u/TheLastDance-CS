@@ -1,8 +1,5 @@
 # Recursion, Array, Struct
 
-> 해당 Chapter는 C Review, 설명이 간략화 됨
-> 
-
 ## Recursion
 
 - 알고리즘이나 함수가 수행 도중에 자기 자신을 다시 호출하여 문제를 해결하는 방법
@@ -14,7 +11,14 @@
 
 - 팩토리얼
 
-$n! = \begin{cases} 1 & n = 0 \\ n*(n-1)! & n \ge 1 \end{cases}$
+$$
+n! =
+\begin{cases}
+1 & n = 0 \\
+n*(n-1)! & n \ge 1
+\end{cases}
+$$
+
 
 ```c
 int factorial(int n)
@@ -28,7 +32,14 @@ int factorial(int n)
 
 - 피보나치수열
 
-$fib(n) = \begin{cases} 0 & n = 0 \\ 1 & n = 1 \\ fib(n-2) + fib(n-1) & otherwise \end{cases}$
+$$
+fib(n) =
+\begin{cases}
+0 & n = 0 \\
+1 & n = 1 \\
+fib(n-2) + fib(n-1) & otherwise
+\end{cases}
+$$
 
 ```c
 int fib(int n)
@@ -44,7 +55,13 @@ int fib(int n)
 
 - 이항계수
 
-$_{n}\mathrm{C}_{k} = \begin{cases} 1 & k = 0 \text{ or } k = n \\ _{n-1}\mathrm{C}_{k} + _{n-1}\mathrm{C}_{k-1} & ohterwise \end{cases}$
+$$
+{ n \choose k } =
+\begin{cases}
+1 & k = 0 \text{ or } k = n \\
+{ n-1 \choose k } + { n-1 \choose k-1 } & otherwiese
+\end{cases}
+$$
 
 ```c
 int combination(int n, int k)
