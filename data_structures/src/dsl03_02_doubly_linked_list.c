@@ -47,11 +47,11 @@ int main(void)
     printf("REMOVE: list\n");
     struct list_head *cur, *n;
     list_for_each_safe(cur, n, &head) {
-		ptr = list_entry(cur, ListNode, list);
-		printf("Removing list element: %d\n", ptr->data);
-		list_del(cur);
-		free(ptr);
-	}
+	ptr = list_entry(cur, ListNode, list);
+	printf("Removing list element: %d\n", ptr->data);
+	list_del(cur);
+	free(ptr);
+    }
 
     if (list_empty(&head)) {
         printf("List is Empty\n");
