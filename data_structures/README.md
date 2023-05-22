@@ -26,4 +26,6 @@
 ## Contents
 [Introduction](./note/DS00_Introduction.md) <br>
 [Data Structures, ADT](./note/DS01_Data_Structures_ADT.md) <br>
+[Recursion, Array, Struct](./note/DS02_Recursion_Array_Struct.md) <br>
+[List](./note/DS03_List.md) <br>
 
