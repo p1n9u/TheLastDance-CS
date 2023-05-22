@@ -35,8 +35,8 @@ int main(void)
 
     printf("list: [ ");
     list_for_each_entry(pos, &head, list) {
-		printf("%d ", pos->data);
-	}
+	printf("%d ", pos->data);
+    }
     printf("]\n");
 
     if (list_empty(&head)) {
