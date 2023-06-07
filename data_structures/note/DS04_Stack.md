@@ -1,6 +1,6 @@
 # Stack
 
-## Definition of List
+## Definition of Stack
 
 - Object : 선형리스트(linear list)
     - 쌓아 놓은 더미
