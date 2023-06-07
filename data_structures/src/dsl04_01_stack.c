@@ -98,5 +98,5 @@ int main(void)
     printf("pop item %d\n", pop(&top));
     display(&top);
 
-	return 0;
+    return 0;
 }
