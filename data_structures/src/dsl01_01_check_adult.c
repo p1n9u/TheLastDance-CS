@@ -13,11 +13,10 @@ int main(void)
 
 int check_adult(int age)
 {
-    if (age >= 20) {
+    if (age >= 20)
         return 1;
-    } else if (age < 20 && age >= 0) {
+    else if (age < 20 && age >= 0)
         return 0;
-    } else {
+    else
         return 2;
-    }
 }

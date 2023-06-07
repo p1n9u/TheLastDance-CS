@@ -29,3 +29,4 @@
 [Recursion, Array, Struct](./note/DS02_Recursion_Array_Struct.md) <br>
 [List](./note/DS03_List.md) <br>
 [Stack](./note/DS04_Stack.md) <br>
+[Queue](./note/DS05_Queue.md) <br>

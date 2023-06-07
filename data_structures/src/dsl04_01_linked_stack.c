@@ -14,13 +14,13 @@ StackNode *create_stack_node(element data)
 {
     StackNode *ptr = (StackNode *)malloc(sizeof(StackNode));
     if (ptr == NULL) {
-        printf("fail: create list by malloc\n");
+        printf("fail: create stack node by malloc\n");
     } else {
         ptr->data = data;
         return ptr;
     }
 }
-// static inline int list_is_first(const struct list_head *list, const struct list_head *head)
+
 void display(struct list_head *top)
 {
     if (list_empty(top)) {
@@ -77,7 +77,6 @@ int main(void)
     LIST_HEAD(top);
 
     int i;
-    StackNode *ptr, *pos;
 
     for (i = 1; i <= 5; i++) {
         push(&top, i);
@@ -88,7 +87,7 @@ int main(void)
     printf("pop item %d\n", pop(&top));
     display(&top);
 
-    push(&top, 5);
+    push(&top, 6);
     display(&top);
 
     printf("pop item %d\n", pop(&top));
