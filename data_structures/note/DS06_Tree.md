@@ -93,9 +93,11 @@
 
 ![Untitled](../img/ds06/Untitled%201.png)
 
+
 $$
 2^0 + 2^1 + \cdots + 2^{h-1} \\ = \sum_{i=0}^{h-1} 2^i = \frac{1(2^{h}-1)}{2-1} \\ = 2^h - 1 = 2^{k+1} - 1
 $$
+
 
 - 노드
     - 레벨 k에 있는 최대 노드 수 : 2^k
@@ -139,33 +141,6 @@ $$
         - 디렉토리 용량 계산
 
 - 중위 순회
-    
-    ```c
-    void inorder(treePointer ptr)
-    {
-    	if (ptr) {
-    		inorder(ptr->leftChild);
-    		printf("%c",ptr->data);
-    		inorder(ptr->rightChild);
-    	}
-    }
-    
-    void iterInorder (treePointer ptr)
-    {
-    	int top = -1;
-    	treePointer stack[MAX_SIZE];
-    	for (;;) {
-    		for (; ptr; ptr = ptr->leftChild)
-    			push(&top, ptr);
-    		ptr = pop(&top);
-    		if (!ptr)
-    			break;
-    		printf("%c", ptr->data);
-    		ptr = ptr->rightChild;
-    	}
-    }
-    ```
-    
     - 먼저 트리의 왼쪽으로 NULL 노드를 만날 때까지 계속 내려간 다음, NULL 노드를 만나면 그 NULL 노드의 부모 노드를 방문하고 다시 오른쪽 부트리에 대해 같은 방법으로 수행함
     - 만약 오른쪽 부트리에 더 이상 방문할 노드가 없다면 트리의 바로 윗 레벨의 방문되지 않은 마지막 노드에 대해서 계속적으로 운행
     - Complexity
@@ -183,59 +158,85 @@ $$
             - 재귀 호출 때 마다 ptr이 스택에 쌓이므로 최악의 경우 필요한 스택의 크기는 c * n임
         - 반복문을 이용한 중위 순회의 시간 복잡도 : O(n)
 
-- 레벨 순회(level order)
-    
-    ```c
-    void levelOrder (treePointer ptr) {
-    	int front = rear = 0;
-    	treePointer queue[MAX_SIZE];
-    	if (!ptr)
-    		return;
-    	enqueue(front, &rear, ptr);
-    	for (;;) {
-    		ptr = dequeue(&front, rear);
-    		if (ptr) {
-    			printf("%c", ptr->data);
-    			if (ptr->leftChild)
-    				enqueue(front, &rear, ptr->leftChild);
-    			if (ptr->rightChild)
-    				enqueue(front, &rear, ptr->rightChild);
-    		} else {
-    			break;
-    		}
-    	}
+```c
+void inorder(treePointer ptr)
+{
+    if (ptr) {
+        inorder(ptr->leftChild);
+        printf("%c",ptr->data);
+        inorder(ptr->rightChild);
     }
-    ```
-    
+}
+
+void iterInorder (treePointer ptr)
+{
+    int top = -1;
+    treePointer stack[MAX_SIZE];
+    for (;;) {
+        for (; ptr; ptr = ptr->leftChild)
+            push(&top, ptr);
+        ptr = pop(&top);
+        if (!ptr)
+            break;
+        printf("%c", ptr->data);
+        ptr = ptr->rightChild;
+    }
+}
+```
+
+
+- 레벨 순회(level order)
     - 각 노드를 레벨순으로 검사하는 순회 방법
     - 지금까지의 순회 방법이 스택을 사용했던 것에 비해 레벨 순회는 큐를 사용하는 순회 방법
+
+```c
+void levelOrder (treePointer ptr) {
+    int front = rear = 0;
+    treePointer queue[MAX_SIZE];
+    if (!ptr)
+        return;
+    enqueue(front, &rear, ptr);
+    for (;;) {
+        ptr = dequeue(&front, rear);
+        if (ptr) {
+            printf("%c", ptr->data);
+            if (ptr->leftChild)
+                enqueue(front, &rear, ptr->leftChild);
+            if (ptr->rightChild)
+                enqueue(front, &rear, ptr->rightChild);
+        } else {
+            break;
+        }
+    }
+}
+```
 
 ## Binary Tree Operation
 
 - 노드 개수
-    
-    ```c
-    int get_node_count(TreeNode *node)
-    {
-    	int count = 0;
-    	if (node != NULL)
-    		count = 1 + get_node_count(node->left) + get_node_count(node->right);
-    	return count;
-    }
-    ```
-    
     - 탐색 트리안의 노드의 개수를 계산
     - 각각의 서브트리에 대하여 순환 호출한 다음, 반환되는 값에 1을 더하여 반환
+
+```c
+int get_node_count(TreeNode *node)
+{
+    int count = 0;
+    if (node != NULL)
+        count = 1 + get_node_count(node->left) + get_node_count(node->right);
+    return count;
+}
+```
+
 - 높이
-    
-    ```c
-    int get_height(TreeNode *node)
-    {
-    	int height = 0;
-    	if (node != NULL)
-    		height = 1 + max(get_height(node->left), get_height(node->right));
-    	return height;
-    }
-    ```
-    
     - 서브트리에 대하여 순환호출하고 서브 트리들의 반환값 중에서 최대 값을 구하여 반환
+
+    
+```c
+int get_height(TreeNode *node)
+{
+    int height = 0;
+    if (node != NULL)
+        height = 1 + max(get_height(node->left), get_height(node->right));
+    return height;
+}
+```
