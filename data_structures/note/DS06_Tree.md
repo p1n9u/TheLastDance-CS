@@ -190,7 +190,7 @@ void iterInorder (treePointer ptr)
     - 지금까지의 순회 방법이 스택을 사용했던 것에 비해 레벨 순회는 큐를 사용하는 순회 방법
 
 ```c
-void levelOrder (treePointer ptr) {
+void levelOrder(treePointer ptr) {
     int front = rear = 0;
     treePointer queue[MAX_SIZE];
     if (!ptr)
