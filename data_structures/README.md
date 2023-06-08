@@ -30,3 +30,4 @@
 [List](./note/DS03_List.md) <br>
 [Stack](./note/DS04_Stack.md) <br>
 [Queue](./note/DS05_Queue.md) <br>
+[Tree](./note/DS06_Tree.md) <br>
