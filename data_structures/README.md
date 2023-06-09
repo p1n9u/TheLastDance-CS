@@ -31,3 +31,4 @@
 [Stack](./note/DS04_Stack.md) <br>
 [Queue](./note/DS05_Queue.md) <br>
 [Tree](./note/DS06_Tree.md) <br>
+[Forest, Binary Search Tree](./note/DS07_Forest_Binary_Search_Tree.md) <br>
