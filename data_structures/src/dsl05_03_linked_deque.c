@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "dsl03_02_doubly_linked_list.h"
+#include "inc/linux_list.h"
 
 typedef int element;
 

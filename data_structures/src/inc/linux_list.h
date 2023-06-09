@@ -1,4 +1,4 @@
-/* SPDX-License-Identifier: GPL-2.0 */
+// SPDX-License-Identifier: GPL-2.0
 
 #ifndef __DOUBLY_LINKED_LIST_H__
 #define __DOUBLY_LINKED_LIST_H__
