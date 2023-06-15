@@ -9,6 +9,8 @@
 3. Fundamentals of Data Structures in C
 4. Data Structures [ CSE2010, 23576 ]
     1. 2019-1, ICT융합학부, 한진영 교수님
+5. [linux](https://github.com/torvalds/linux)
+6. [OpenBSD](https://github.com/openbsd/src)
 
 ---
 
