@@ -23,8 +23,6 @@
 
 ### Introduction: Reverse Engineering
 
----
-
 - 커리큘럼 소개
     - 엔지니어링이란 완성품과 이를 구성하는 부품들의 기능과 설계를 고안하고, 제작하는 과정
     - 이와 대비되는 리버스 엔지니어링(Reverse Engineering)은 위 과정을 거꾸로 하는 행위
