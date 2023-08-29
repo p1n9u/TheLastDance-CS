@@ -34,3 +34,4 @@
 [STAGE 2 Binary & Analysis](./note/RE02_STAGE_2_Binary_&_Analysis.md) <br>
 [STAGE 3 Computer Science](./note/RE03_STAGE_3_Computer_Science.md) <br>
 [STAGE 4 x86 Assembly](./note/RE04_STAGE_4_x86_Assembly.md) <br>
+[STAGE 5 x86 Assembly](./note/RE05_STAGE_5_Tools.md) <br>
