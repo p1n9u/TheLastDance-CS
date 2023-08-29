@@ -577,7 +577,7 @@ syscall
     - command, system utilities, syscall, low level operations, …
 - 시스템 콜은 함수
     - 필요한 기능과 인자에 대한 정보를 레지스터로 전달하면, 커널이 이를 읽어서 요청을 처리
-- [syscall table]([https://cccding.tistory.com/7](https://cccding.tistory.com/7))
+    - [syscall table](https://cccding.tistory.com/7)
 - 리눅스에서는 x64 아키텍처에서 rax로 무슨 요청인지 나타내고, 코드의 순서대로 필요한 인자를 전달
     - 요청 : rax
     - 인자 순서 : rdi → rsi → rdx → rcx → r8 → r9 → stack
@@ -696,7 +696,6 @@ rsi = 0x400000
 ### No. 2
 
 - 다음 어셈블리 코드를 실행했을 때 출력되는 결과
-    - [syscall](https://cccding.tistory.com/7)
 
 ```nasm
 =================================
