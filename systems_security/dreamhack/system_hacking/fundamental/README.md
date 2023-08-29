@@ -1,4 +1,4 @@
-# System Hacking
+# System Hacking Fundamental
 
 ---
 
@@ -29,4 +29,4 @@
 
 ---
 ## Contents
-[STAGE 2 Computer Science](./note/SHB02_STAGE_2_Computer_Science.md) <br>
+[STAGE 2 Computer Science](./note/SHF02_STAGE_2_Computer_Science.md) <br>
