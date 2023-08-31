@@ -16,6 +16,9 @@
     - Codename : focal
 - gcc
     - gcc version 9.4.0
+- pyenv
+    - pyenv 2.3.25
+    - Python 3.11.5
 
 ---
 
