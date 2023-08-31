@@ -43,6 +43,7 @@
 ### Systems Security
 - Dreamhack
     - [Reverse Engineering](./systems_security/dreamhack/reverse_engineering)
+    - [System Hacking](./systems_security/dreamhack/system_hacking)
 
 ---
 
@@ -60,4 +61,4 @@
 
 ---
 
-Updated : 2023.08.25
+Updated : 2023.08.31
