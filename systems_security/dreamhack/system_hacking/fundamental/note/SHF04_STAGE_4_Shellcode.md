@@ -213,7 +213,7 @@ int main(void)
 - 대부분의 운영체제는 실행 가능한 파일의 형식을 규정
     - [윈도우의 PE](https://en.wikipedia.org/wiki/Portable_Executable)
     - [리눅스의 ELF](https://en.wikipedia.org/wiki/Executable)
-        - *ELF(Executable and Linkable Format)*는 크게 헤더와 코드 그리고 기타 데이터로 구성
+        - *ELF(Executable and Linkable Format)* 는 크게 헤더와 코드 그리고 기타 데이터로 구성
         - 헤더에는 실행에 필요한 여러 정보가 적혀 있고, 코드에는 CPU가 이해할 수 있는 기계어 코드가 적혀있음
 - 작성한 셸코드 `S4_00_orw.s`는 아스키로 작성된 어셈블리 코드이므로, 기계어로 치환하면 CPU가 이해할 수는 있으나 ELF형식이 아니므로 리눅스에서 실행될 수 없음
     - *gcc* 컴파일을 통해 이를 ELF형식으로 변형해야함
@@ -334,7 +334,7 @@ pwndbg>
     - 첫번째 `syscall` 이 위치한 `run_sh+29` 에 브레이크 포인트를 설정한 후 실행하여, 해당 시점에 syscall에 들어가는 인자를 확인
     - *pwndbg* 플러그인은 *syscall*을 호출할 때, 위 결과와 같이 인자를 해석해서 보여줌
         - `open(“/tmp/flag”, O_RDONLY, NULL);`가 실행됨을 확인
-    - `ni` 명령어로 `syscall` 을 실행하고 나면, *open* 시스템 콜을 수행한 결과로 */tmp/flag*의 *fd(3)*가 *rax*에 저장
+    - `ni` 명령어로 `syscall` 을 실행하고 나면, *open* 시스템 콜을 수행한 결과로 */tmp/flag*의 *fd(3)* 가 *rax*에 저장
 
 ---
 
@@ -401,7 +401,7 @@ pwndbg>
 
 1. read(fd, buf, 0x30)
     - 두 번째 `syscall` 이 위치한 `run_sh+55` 에 브레이크 포인트를 설정하고 실행하여, 해당 시점에 syscall에 들어가는 인자를 확인
-    - 새로 할당한 */tmp/flag*의 *fd(3)*에서 데이터를 0x30바이트만큼 읽어서 0x7fffffffde48에 저장
+    - 새로 할당한 */tmp/flag*의 *fd(3)* 에서 데이터를 0x30바이트만큼 읽어서 0x7fffffffde48에 저장
     - `ni` 명령어로 `syscall` 을 실행
     - `REGISTERS` 부분의 RSI를 통해서 파일의 내용이 0x7fffffffde48에 저장되었음을 알 수 있음
         - `x/s` 명령어로도 확인
