@@ -41,7 +41,7 @@ Other models are very rare. For example, ILP64 (8/8/8: int, long, and pointer ar
 
 ![Untitled](../img/ch02/Untitled%201.png)
 
-[https://en.wikipedia.org/wiki/IEEE_754](https://en.wikipedia.org/wiki/IEEE_754)
+[IEEE754](https://en.wikipedia.org/wiki/IEEE_754)
 
 - 부동 소수점
     

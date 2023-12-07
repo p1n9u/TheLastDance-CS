@@ -36,7 +36,7 @@
 
 ### Language
 - [C](./c) <br>
-- CPP <br>
+- [CPP](./cpp) <br>
 
 ### [Data Structures](./data_structures)
 
