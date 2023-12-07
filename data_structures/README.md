@@ -19,7 +19,7 @@
 - Ubuntu
     - Description : Ubuntu 20.04.6 LTS
     - Release : 20.04
-    - Codename :  focal
+    - Codename : focal
 - gcc
     - gcc version 9.4.0
 
