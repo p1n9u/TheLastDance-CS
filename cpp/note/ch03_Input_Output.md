@@ -16,6 +16,7 @@
 ## cout
 
 - Writes to the standard C output stream stdout
+- 연산자를 오버로딩해서 출력
 
 ## cin
 
