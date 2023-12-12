@@ -19,7 +19,6 @@ int main(void)
     cout << b << endl;
     cout << c << endl;
 
-    
     num = 10;
     cout << -1 << endl;
     cout << +-+-+-1 << endl;
