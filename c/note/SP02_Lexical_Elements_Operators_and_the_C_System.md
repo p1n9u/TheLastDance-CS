@@ -88,6 +88,8 @@ default     for         short       union
 ## Operators and Punctuators
 
 [중요! C/C++ 연산자](https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B)
+[Sequence Point](https://en.wikipedia.org/wiki/Sequence_point)
+[Undefined Behavior](https://en.wikipedia.org/wiki/Undefined_behavior)
 
 ## The C System
 
