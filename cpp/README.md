@@ -25,3 +25,4 @@
 [The Fundamental Data Types](./note/ch02_The_Fundamental_Data_Types.md) <br>
 [Input Output](./note/ch03_Input_Output.md) <br>
 [Operators in C/C++](../c/note/SP02_Lexical_Elements_Operators_and_the_C_System.md#operators-and-punctuators) <br>
+[Flow of Control](../c/note/SP04_Flow_of_Control.md) <br>
