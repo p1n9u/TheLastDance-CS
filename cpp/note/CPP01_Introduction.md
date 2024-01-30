@@ -15,4 +15,4 @@
 
 - [CPP ISO status](https://isocpp.org/std/status)
     
-    ![timeline-2022-07.png](../img/ch01/timeline-2022-07.png)
+    ![timeline-2022-07.png](../img/CPP01/timeline-2022-07.png)

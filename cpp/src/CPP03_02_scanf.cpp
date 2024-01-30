@@ -99,7 +99,7 @@ int main(void)
 
     cout << "-----------------------" << endl;
 
-    freopen("ch03_02_input.txt", "r", stdin);
+    freopen("CPP03_02_input.txt", "r", stdin);
     scanf("%d", &num);
     printf("%d\n", num);
 

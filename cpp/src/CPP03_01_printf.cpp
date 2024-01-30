@@ -27,7 +27,7 @@ int main(void)
     printf("%-10f\n", 1.1);
     printf("%-10f\n", -1.1);
     printf("%%\n");
-    freopen("ch03_01_output.txt", "w", stdout);
+    freopen("CPP03_01_output.txt", "w", stdout);
     printf("Hello World!");
 
     return 0;

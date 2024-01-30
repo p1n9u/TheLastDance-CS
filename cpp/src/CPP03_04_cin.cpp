@@ -106,7 +106,7 @@ int main(void)
 
     cout << "-----------------------" << endl;
 
-    freopen("input.txt", "r", stdin);
+    freopen("CPP03_04_input.txt", "r", stdin);
 
     cin >> num;
     cout << num << endl;

@@ -125,7 +125,7 @@ int main(void)
     cout << setw(10) << setfill('#') << setprecision(2) << showpos << 1.1f << endl;
 
 
-    freopen("ch03_03_output.txt", "w", stdout);
+    freopen("CPP03_03_output.txt", "w", stdout);
     cout << "Hello World" << endl;
 
 

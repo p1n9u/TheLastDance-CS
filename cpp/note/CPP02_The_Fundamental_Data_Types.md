@@ -28,7 +28,7 @@ Other models are very rare. For example, ILP64 (8/8/8: int, long, and pointer ar
 
 ## Integer Types
 
-![Untitled](../img/ch02/Untitled.png)
+![Untitled](../img/CPP02/Untitled.png)
 
 - 이진수
     - 컴퓨터에서 signed는 2의 보수 방식을 채택
@@ -39,13 +39,13 @@ Other models are very rare. For example, ILP64 (8/8/8: int, long, and pointer ar
 
 ## Floating-point Types
 
-![Untitled](../img/ch02/Untitled%201.png)
+![Untitled](../img/CPP02/Untitled%201.png)
 
 [IEEE754](https://en.wikipedia.org/wiki/IEEE_754)
 
 - 부동 소수점
     
-    ![equation.png](../img/ch02/equation.png)
+    ![equation.png](../img/CPP02/equation.png)
     
     - 실수를 표현할 때 소수점의 위치를 고정시키 않고 지수부(exponent)와 가수부(mantissa)를 나타내어 표현
         - 부호: -
@@ -53,7 +53,7 @@ Other models are very rare. For example, ILP64 (8/8/8: int, long, and pointer ar
         - 지수부: 10^6
     - 메모리 표현
         
-        ![Untitled](../img/ch02/Untitled%202.png)
+        ![Untitled](../img/CPP02/Untitled%202.png)
         
         - 부호: 음수 → 1bit
         - 가수부: 최상위 비트 부터 채움, 나머지는 0으로 채움
