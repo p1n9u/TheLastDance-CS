@@ -21,7 +21,7 @@
 ---
 
 ## Contents
-[Introduction](./note/CPP01_Introduction) <br>
+[Introduction](./note/CPP01_Introduction.md) <br>
 [The Fundamental Data Types](./note/CPP02_The_Fundamental_Data_Types.md) <br>
 [Input Output](./note/CPP03_Input_Output.md) <br>
 [Operators in C/C++](../c/note/SP02_Lexical_Elements_Operators_and_the_C_System.md#operators-and-punctuators) <br>
