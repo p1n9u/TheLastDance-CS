@@ -43,7 +43,7 @@
     - 오픈소스 모델과 개방형 협업
     - 오픈소스 라이선스
         - 넷스케이프, 아파치 등
-        - [우리나라 오픈소스SW 라이선스 종합정보시스템][https://www.olis.or.kr/](https://www.olis.or.kr/)
+        - [우리나라 오픈소스SW 라이선스 종합정보시스템](https://www.olis.or.kr/)
     - 자유-오픈 소스 소프트웨어(Free and open-source software, FOSS)
 
 ## 리눅스 배포판
