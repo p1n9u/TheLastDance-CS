@@ -22,3 +22,4 @@
 
 ## Contents
 [Introduction](./note/LB01_Introduction.md) <br>
+[Architecture and Characteristics of Operating System](./note/LB02_Architecture_and_Characteristics_of_Operating_System.md) <br>
