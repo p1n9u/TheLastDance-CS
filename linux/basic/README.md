@@ -18,6 +18,8 @@
 - gcc
     - gcc version 11.4.0
 
+[Virtual Machine 구축](./note/LBE01_VM.md) <br>
+
 ---
 
 ## Contents
