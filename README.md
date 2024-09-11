@@ -36,14 +36,11 @@
 
 ### Language
 - [C](./c) <br>
-- [CPP](./cpp) <br>
+
 
 ### [Data Structures](./data_structures)
 
 ### Systems Security
-- Dreamhack
-    - [Reverse Engineering](./systems_security/dreamhack/reverse_engineering)
-    - [System Hacking](./systems_security/dreamhack/system_hacking)
 
 ---
 
@@ -61,4 +58,5 @@
 
 ---
 
-Updated : 2023.08.31
+리뉴얼 中…
+Updated : 2024.09.11
