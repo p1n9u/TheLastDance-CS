@@ -207,7 +207,7 @@ Date: 3 Jul 91 10:00:50 GMT
         
         ![image.png](../img/chapter01/image%209.png)
         
-        - Ctrl + Alt + F1~6: 텍스트 터미널 1~6
+        - Ctrl + Alt + F1 to 6: 텍스트 터미널 1 to 6
         - Ctrl + Alt + F7: GUI 터미널
     - 사용자 권한
         - 관리자
