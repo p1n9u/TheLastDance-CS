@@ -10,9 +10,18 @@
 
 **Testbed**
 
-
+- Ubuntu
+    - Description : Ubuntu 16.04.7 LTS
+    - Release : 16.04
+    - Codename : xenial
+- gcc
+    - gcc version :
+- VirtualBox
+    - Version : 7.1.0-164728-Win
+    - Extension Pack Version : 7.1.0
 
 ---
 
 ## Contents
 [리눅스 기초와 이론](./ops/note/chapter01.md) <br>
+[리눅스 쉘과 CLI 명령어](./ops/note/chapter02-01.md) <br>
