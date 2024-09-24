@@ -35,7 +35,8 @@
 ## 목차
 
 ### Language
-- [C](./c) <br>
+
+- [C](./c)
 
 
 ### [Data Structures](./data_structures)
@@ -43,7 +44,7 @@
 ### Operating System
 
 - linux 
-  - [test] 
+  - [Dev Online Linux](./linux/fastcampus/dev_online_linux) 
 
 ### Systems Security
 
