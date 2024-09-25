@@ -23,5 +23,8 @@
 ---
 
 ## Contents
+
+### 운영파트
 [리눅스 기초와 이론](./ops/note/chapter01.md) <br>
 [리눅스 쉘과 CLI 명령어](./ops/note/chapter02-01.md) <br>
+[파일 시스템 구조](./ops/note/chapter02-02.md) <br>
