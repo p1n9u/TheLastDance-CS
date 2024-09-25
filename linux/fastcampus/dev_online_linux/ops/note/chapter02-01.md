@@ -92,8 +92,6 @@
     
     # 파일 속성 보기: file
     ## file [OPTION]... [FILE]...
-    
-    # 시스템 종료: reboot, poweroff, shutdown
     ```
     
 - 시스템 종료

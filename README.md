@@ -38,7 +38,6 @@
 
 - [C](./c)
 
-
 ### [Data Structures](./data_structures)
 
 ### Operating System
