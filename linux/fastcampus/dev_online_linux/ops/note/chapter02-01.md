@@ -456,6 +456,7 @@
     # 언어와 언어셋(캐릭터셋), 그리고 다양한 지역 설정 값 확인
     ## /etc/locale-gen
     locale
+    locale -a
     localectl
     locale-gen
     
