@@ -447,9 +447,6 @@
     echo $PATH
     export PATH=$PATH:(DIR)
     
-    # 바이너리 실행 위치 확인
-    which file
-    
     # 환경변수 확인
     printenv
     
