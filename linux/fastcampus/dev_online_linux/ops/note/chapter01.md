@@ -229,7 +229,7 @@ Date: 3 Jul 91 10:00:50 GMT
     
     ```bash
     $ systemctl status sshd.service
-    $ sudo apt-get install openssh-server
+    $ sudo apt install openssh-server
     $ ifconfig
     # NAT
     enp0s3    Link encap:Ethernet  HWaddr 08:00:27:25:ea:c5  
