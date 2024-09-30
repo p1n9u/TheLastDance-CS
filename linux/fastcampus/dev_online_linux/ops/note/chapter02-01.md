@@ -92,6 +92,10 @@
     
     # 파일 속성 보기: file
     ## file [OPTION]... [FILE]...
+
+    # 바이너리 실행 위치 확인
+    which file
+    whereis file
     ```
     
 - 시스템 종료
